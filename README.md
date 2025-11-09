@@ -33,7 +33,7 @@ You should see:
 4. Open in Browser
 Go to:
 http://127.0.0.1:5000/
-🌍 Supported Languages
+🌍<h6>Supported Languages</h6> 
 Code	Language
 es	Spanish<br>
 fr	French<br>
@@ -57,12 +57,12 @@ translated_text = translator.translate(text, dest=target_language)
 Some PDFs may contain scanned images – text extraction may fail (requires OCR).
 googletrans API may fail intermittently.
 Sanskrit translations may not always be reliable.
-🧩 Future Improvements
+🧩<h8>Future Improvements</h8> 
 🔹 Add OCR support (Tesseract)
 🔹 Export translated text to PDF/Word
 🔹 Add language detection
 🔹 Improve UI formatting and layout
-✨ Credits
+✨<h7>Credits</h7>
 Flask – Web Framework<br>
 PyMuPDF – PDF text extraction<br>
 googletrans – Translation API<br>
