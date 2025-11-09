@@ -1,4 +1,4 @@
-PDF Translator – Flask Application
+<h1>PDF Translator – Flask Application</h1>
 A simple and elegant web application that extracts text from PDF files and translates it into multiple languages. Built using Flask, PyMuPDF, and googletrans.
 🚀 Features
 ✅ Upload a PDF file
