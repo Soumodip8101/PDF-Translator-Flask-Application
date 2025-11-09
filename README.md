@@ -1,13 +1,13 @@
 <h1>PDF Translator – Flask Application</h1>
 A simple and elegant web application that extracts text from PDF files and translates it into multiple languages. Built using Flask, PyMuPDF, and googletrans.
-🚀 Features
-✅ Upload a PDF file
-✅ Extract text automatically using PyMuPDF (fitz)
-✅ Translate text into supported languages
-✅ User-friendly responsive web interface
-✅ Error handling for unsupported files and translation failures
-✅ Automatic fallback translation for Sanskrit
-📂 Project Structure
+🚀<h2>Features</h2> 
+✅ Upload a PDF file<br>
+✅ Extract text automatically using PyMuPDF (fitz)<br>
+✅ Translate text into supported languages<br>
+✅ User-friendly responsive web interface<br>
+✅ Error handling for unsupported files and translation failures<br>
+✅ Automatic fallback translation for Sanskrit<br>
+📂 <h3>Project Structure</h3>
 project_folder/
 │ app.py
 │ README.md
@@ -16,10 +16,10 @@ project_folder/
 │    └── index.html
 │
 └── uploads/  (auto-created at runtime)
-🛠 Requirements
+🛠 <h4>Requirements</h4>
 Install necessary Python packages:
 pip install flask pymupdf googletrans==4.0.0-rc1
-▶️ How to Run
+▶️<h5>How to Run</h5> 
 1. Ensure Python 3 is installed
 Check version:
 python3 --version
@@ -35,18 +35,18 @@ Go to:
 http://127.0.0.1:5000/
 🌍 Supported Languages
 Code	Language
-es	Spanish
-fr	French
-de	German
-it	Italian
-pt	Portuguese
-en	English
-hi	Hindi
-bn	Bengali
-sa	Sanskrit
-⚠️ Sanskrit translation may fail depending on googletrans API.
-✅ The app includes a fallback to Hindi.
-🧠 How It Works
+es	Spanish<br>
+fr	French<br>
+de	German<br>
+it	Italian<br>
+pt	Portuguese<br>
+en	English<br>
+hi	Hindi<br>
+bn	Bengali<br>
+sa	Sanskrit<br>
+⚠️ Sanskrit translation may fail depending on googletrans API.<br>
+✅ The app includes a fallback to Hindi.<br>
+🧠 How It Works<br>
 ✔ PDF Text Extraction
 The app uses PyMuPDF (fitz) to extract text from each page:
 page.get_text("text")
@@ -63,6 +63,6 @@ Sanskrit translations may not always be reliable.
 🔹 Add language detection
 🔹 Improve UI formatting and layout
 ✨ Credits
-Flask – Web Framework
-PyMuPDF – PDF text extraction
-googletrans – Translation API
+Flask – Web Framework<br>
+PyMuPDF – PDF text extraction<br>
+googletrans – Translation API<br>
